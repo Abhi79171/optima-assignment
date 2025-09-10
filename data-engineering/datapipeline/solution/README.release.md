@@ -42,8 +42,6 @@ This was intentional to keep the setup minimal for a demo.
 
 ##  How to Test It Publicly (Postman or Curl)
 
-To allow external devs to test the Lambda + S3 setup:
-
 ### 1. Upload Input Files (Public S3)
 
 Use `PUT` or `POST` to upload `races.csv` and `results.csv` to input folder in S3 bucket.

@@ -32,14 +32,14 @@ This project is a complete end-to-end data pipeline built for rapid post-race pr
 This project is **already deployed** using AWS S3 + AWS Lambda for serverless execution.
 
 To view the deployed architecture and testing steps, please refer:  
- [README.release.md](README.release.md)
+ [release_notes.md](release_notes.md)
 
 ---
 
 ## Local Development
 
 To run and test the project locally (including unit testing), please refer to:  
- [README.local.md](README.local.md)
+ [local_setup.md](local_setup.md)
 
 ---
 

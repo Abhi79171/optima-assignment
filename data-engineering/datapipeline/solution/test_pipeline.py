@@ -1,5 +1,5 @@
 import pandas as pd
-from main import clean_time_column  
+from main import clean_time_column
 from main import extract_winner
 
 def test_clean_time_column():

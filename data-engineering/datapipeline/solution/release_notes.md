@@ -69,7 +69,7 @@ These can also be accessed via public S3 URLs like:
 
 ---
 
-##  Future Improvements with Terraform 
+##  Future Improvements with Terraform (IaC - Infrastructure as Code)
 
 This entire setup (S3 + Lambda + IAM Roles + Trigger config) can be automated using **Terraform**, allowing Infrastructure-as-Code deployment.
 

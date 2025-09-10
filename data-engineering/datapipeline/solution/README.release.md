@@ -90,7 +90,7 @@ Using Terraform ensures reproducibility, auditability, and clean teardown after 
 - AWS S3 + Lambda is used for zero-server deployment.
 - Anyone can test by uploading two files (`races.csv`, `results.csv`) to the public bucket.
 - Output JSONs are auto-generated and publicly accessible.
-- Security is intentionally skipped for now — only for internal or temporary testing.
+- Security is intentionally skipped for now only for internal or temporary testing.
 - Terraform can be introduced to manage infra cleanly in future iterations.
 
 ---

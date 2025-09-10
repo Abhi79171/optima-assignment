@@ -64,8 +64,9 @@ pytest test_pipeline.py
 - `test_extract_winner_no_winner()`: Handles races with no winner.  
 - `test_extract_winner_race_missing()`: Handles missing race IDs.  
 
-## 8. Next Steps
+
+
 
 This version is intended for local development and testing.
 
-For cloud deployment (AWS S3 + Lambda) and public testing via Postman please refer **README.release.md**.
+For cloud deployment (AWS S3 + Lambda) and public testing via Postman please refer [README.release.md](README.release.md)

@@ -98,4 +98,4 @@ Using Terraform ensures reproducibility, auditability, and clean teardown after 
 
 This version is intended for Cloud Deployment and testing.
 
-For local deployment and testing please refer [local_notes.md](local_notes.md)
+For local deployment and testing please refer [local_setup.md](local_setup.md)

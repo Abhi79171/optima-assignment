@@ -31,3 +31,21 @@ def clean_time_column(df):
                 cleaned.append("00:00:00")
     df["time"] = cleaned
     return df
+
+def extract_winner(race_id, grouped_results):
+    """
+    By passing a race ID, it extracts the winning driver's ID and fastest lap time.
+    If race or winner info is missing, it returns an error message.
+    """
+    try:
+        race_results = grouped_results.get_group(race_id)
+    except KeyError:
+        return None, None, "No results found for raceId"
+
+    # Finds the row with position == 1 (winner)
+    winner_row = race_results[race_results['position'] == 1.0]
+    if winner_row.empty:
+        return None, None, "No winner (position == 1.0) found"
+
+    winner = winner_row.iloc[0]
+    return int(winner['driverId']), winner['fastestLapTime'], None

@@ -31,7 +31,7 @@ This project is a complete end-to-end data pipeline built for rapid post-race pr
 
 This project is **already deployed** using AWS S3 + AWS Lambda for serverless execution.
 
-To view the deployed architecture, please refer:  
+To view the deployed architecture and testing steps, please refer:  
  [README.release.md](README.release.md)
 
 ---

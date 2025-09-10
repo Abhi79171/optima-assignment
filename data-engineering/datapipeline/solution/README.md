@@ -1,6 +1,6 @@
 # F1 Data Pipeline Solution
 
-This project is a complete end-to-end data pipeline built for rapid post-race processing of Formula 1 datasets. It meets all **core requirements** and **stretch goals** as outlined in the original assignment.
+This project is a complete end-to-end data pipeline built for rapid post-race processing of Formula 1 datasets. It meets all `core requirements` and `stretch goals` as outlined in the original assignment.
 
 ---
 

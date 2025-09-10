@@ -51,3 +51,7 @@ To run and test the project locally (including unit testing), please refer to:
 - `requirements.txt` — Python dependencies (e.g., `pandas`)
 - `test_pipeline.py` — unit tests
 
+## Demo Videos
+
+Execution walkthroughs covering the local testing, cloud deployment and testing, and also Postman based testing are available at the following link:
+[https://drive.google.com/drive/folders/1lXFr5kxnVFgCLx0_lSyR1paFpCRxc6MR?usp=sharing](https://drive.google.com/drive/folders/1lXFr5kxnVFgCLx0_lSyR1paFpCRxc6MR?usp=sharing)

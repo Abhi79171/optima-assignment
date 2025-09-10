@@ -69,4 +69,4 @@ pytest test_pipeline.py
 
 This version is intended for local development and testing.
 
-For cloud deployment (AWS S3 + Lambda) and public testing via Postman please refer [README.release.md](README.release.md)
+For cloud deployment (AWS S3 + Lambda) and public testing via Postman please refer [release_notes.md](release_notes.md)

@@ -94,3 +94,8 @@ Using Terraform ensures reproducibility, auditability, and clean teardown after 
 - Terraform can be introduced to manage infra cleanly in future iterations.
 
 ---
+
+
+This version is intended for Cloud Deployment and testing.
+
+For local deployment and testing please refer [README.local.md](README.local.md)

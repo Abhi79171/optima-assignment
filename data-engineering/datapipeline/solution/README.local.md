@@ -17,14 +17,14 @@ The pipeline also logs any races that couldn’t be processed due to missing or 
 ```bash
 git clone https://github.com/Abhi79171/optima-assignment.git
 cd optima-assignment/data-engineering/datapipeline/solution
-
+```
 ## 2. Install Requirements
 
 It is recommended to use a virtual environment. Then install dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## 3. Check Input CSVs
 
 Verify weather `races.csv` and `results.csv` files are inside the `source-data/` folder.  
